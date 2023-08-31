@@ -1,5 +1,0 @@
-baseURL = "//philomathesinc.github.io"
-languageCode = "en-us"
-title = "Philomates Inc Homepage"
-theme = "chunky-poster"
-enableEmoji = true
