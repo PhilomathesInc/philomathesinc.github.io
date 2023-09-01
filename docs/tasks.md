@@ -19,3 +19,21 @@ _Note: The following two steps would block the shell from processing further inp
 - Ensure the application binary is executable. Execute it using the full absolute path and verify it from a browser.
 - Ensure the application is available to execute from any path using just the binary name(as opposed to the absolute path in the first step) - `http-server`. Execute it and verify from a browser.
 - Ensure the application is running at all times. Verify by restarting your computer and checking if you can access the application from the browser without running any commands manually.
+
+## Bash
+
+### Task 1
+
+Write a shell script to perform the Task 1 of the Linux section.
+
+### Task 2
+
+Write a shell script, which takes in as the only argument a string, treating it as a GitHub username. Fetch details of the user via the GitHub public API and print the output in the following format
+
+_<name> is from <location> and has the Twitter username: <twitter_username>_
+
+Example
+```sh
+$ bash github_user_details.sh mbtamuli
+Mriyam Tamuli is from India and has the Twitter username: mbtamuli
+```
