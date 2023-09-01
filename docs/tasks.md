@@ -30,7 +30,7 @@ Write a shell script to perform the Task 1 of the Linux section.
 
 Write a shell script, which takes in as the only argument a string, treating it as a GitHub username. Fetch details of the user via the GitHub public API and print the output in the following format
 
-_<name> is from <location> and has the Twitter username: <twitter_username>_
+_`name` is from `location` and has the Twitter username: `twitter_username`_
 
 Example
 ```sh
