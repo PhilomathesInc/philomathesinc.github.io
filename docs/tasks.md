@@ -5,10 +5,12 @@
 ### Task 1
 
 - Create two users **tux** and **octocat**.
-- Create a group **friends**.
+- Create a group **friends**. Add both the users to the group.
 - Create a directory `/friends`.
-- Allow the group **friends** read access to `/friends`.
-- Allow the user **tux** write access to `/friends`.
+- Owner of the file should be **tux** and group of the directory should be **friends**
+- Allow the group **friends** read permission to `/friends`.
+- Allow the user **tux** write permission to `/friends`.
+- Allow execute permission for all - user, group and others, on `/friends` directory.
 
 ### Task 2
 
